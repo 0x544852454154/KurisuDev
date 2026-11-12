@@ -2,11 +2,11 @@
   "name": "kurisu",
   "version": "1.0.0",
   "description": "Kurisu Security - Discord antinuke, raid protection and moderation bot",
-  "main": "src/index.js",
+  "main": "index.js",
   "private": true,
-  "engines": { "node": ">=20" },
+  "engines": { "node": ">=22" },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node index.js",
     "deploy": "node scripts/deploy-commands.js",
     "test": "node --test tests/kurisu.test.js"
   },
